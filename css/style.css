@@ -11,66 +11,80 @@ body{
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    line-height: 1.71;
-    
-}
-button{ font-family: inherit;}
-ul{
-    list-style: none;
-}
-.header .logo{
+    line-height: 1.71;}
+
+    ul{ list-style: none;}
+
+    .header .logo{
     color: var(--logo-color);
     text-decoration: none;
 }
+
 .logo-word{
     color: var(--accent-color);
 }
+
 .list .link{
     color: var(--secondary-text-color);
     text-decoration: none;
-}.list .link:hover, .list .link:focus{
+}
+
+.list .link:hover, .list .link:focus{
     color: var(--accent-color);
 }
+
 .hero-title{
     color: var(--ccolor-withe);
     /* времено фон */
     background-color: 
     #2F303A;
 }
+
 .button{
     color: var(--ccolor-withe);
     background-color: var(--accent-color);
-    button{ font-family: inherit;}
+    font-family: inherit;
 }
+
 .section-title{
     color: var(--secondary-text-color);
 }
+
 .title{
     color: var(--secondary-text-color);
 }
+
 .comand{
     background-color: #F5F4FA;
 }
+
 .footer{
     background-color: #2F303A;
 }
+
 .footer .logo{
     color: var(--ccolor-withe);
     text-decoration: none;
 }
+
 .address{
     color: var(--ccolor-withe);
+    
 }
+
 .address-list .link{ 
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+
 .project .button{
     font-family: inherit;
     color: var(--secondary-text-color);
     background-color: var(--ccolor-withe);
+    font-family: inherit;
     
 }
+
 .project .button:hover, .project .button:focus{
     color: var(--ccolor-withe);
     background-color: var(--accent-color);
