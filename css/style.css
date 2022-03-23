@@ -9,15 +9,24 @@ body{
     background-color: var(--ccolor-withe);
     color: var(--primory-text-color);
     font-family: roboto, sans-serif;
-    letter-spacing: 0.03em;
+    font-style: normal;
     font-size: 14px;
-    line-height: 1.71;}
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
 
     ul{ list-style: none;}
 
     .header .logo{
     color: var(--logo-color);
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+
+
 }
 
 .logo-word{
@@ -33,11 +42,24 @@ body{
     color: var(--accent-color);
 }
 
+.contact .link{
+    color: var(--primory-text-color);
+    text-decoration: none;
+}
+.contact .link:hover, .contact .link:focus{
+    color: var(--accent-color);
+}
+
 .hero-title{
     color: var(--ccolor-withe);
     /* времено фон */
-    background-color: 
-    #2F303A;
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button{
@@ -48,10 +70,18 @@ body{
 
 .section-title{
     color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
 }
 
 .title{
     color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
 }
 
 .comand{
