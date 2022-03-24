@@ -110,7 +110,7 @@ body{
 .project .button{
     font-family: inherit;
     color: var(--secondary-text-color);
-    background-color: var(--ccolor-withe);
+    background-color: #F5F4FA;
     font-family: inherit;
     
 }
