@@ -36,6 +36,10 @@ body{
 .list .link{
     color: var(--secondary-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,43;
+    letter-spacing: 0.02em;
 }
 
 .list .link:hover, .list .link:focus{
@@ -45,6 +49,10 @@ body{
 .contact .link{
     color: var(--primory-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,43;
+    letter-spacing: 0.02em;
 }
 .contact .link:hover, .contact .link:focus{
     color: var(--accent-color);
@@ -66,6 +74,13 @@ body{
     color: var(--ccolor-withe);
     background-color: var(--accent-color);
     font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .section-title{
@@ -95,16 +110,31 @@ body{
 .footer .logo{
     color: var(--ccolor-withe);
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .address{
-    color: var(--ccolor-withe);
-    
+    color: var(--ccolor-withe);    
+}
+.address:hover, .address:focus{
+    color: var(--accent-color);
 }
 
 .address-list .link{ 
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;   
+}
+.address-list .link:hover, .address-list .link:focus{
+    color: var(--accent-color);
 }
 
 .project .button{
@@ -112,12 +142,28 @@ body{
     color: var(--secondary-text-color);
     background-color: #F5F4FA;
     font-family: inherit;
-    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
-
 .project .button:hover, .project .button:focus{
     color: var(--ccolor-withe);
     background-color: var(--accent-color);
 }
     
+.title-item{
+    color: #212121;
+    ont-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.text{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
   
