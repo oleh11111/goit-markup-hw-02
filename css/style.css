@@ -99,7 +99,7 @@ body{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.17;
     text-align: center;
 }
 
@@ -115,7 +115,7 @@ body{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.17;
     text-align: center;
 }
 
@@ -123,15 +123,15 @@ body{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
-    text-align: center;
+    line-height: 1.17;
+   
 }
 
 .title{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px; 
-    line-height: 1.4;
+    line-height: 1.17;
     text-transform: uppercase;
     
 }
@@ -183,7 +183,7 @@ body{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.17;
     text-align: center;
 }
 
